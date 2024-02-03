@@ -42,7 +42,7 @@
             <p class="text-secondary text-italic">{{ `${typingUser.name} is typing` }}<span class="animated-dots"></span></p>
           </div>
 
-          <div class="card-footer">
+          <div class="card-footer p-2">
             <div class="input-group input-group-flat">
               <input type="text" v-model="message" @keyup.enter="storeMessage" @keyup="sendTypingEvent" class="form-control" placeholder="Type a message" />
               <span class="input-group-text">
